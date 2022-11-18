@@ -1,0 +1,1 @@
+open('abcd.txt', 'r+')  # w parra sauvar o aquivo

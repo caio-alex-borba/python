@@ -1,0 +1,11 @@
+n = int(input('digite um numero'))
+t1 = 1
+t2 = 1
+print(f'0>{t1}>{t2}>',end='')
+cont = 4
+while cont <= n:
+    t3 = t1+t2
+    print(f'{t3}>',end='')
+    t1 = t2
+    t2 = t3
+    cont += 1
